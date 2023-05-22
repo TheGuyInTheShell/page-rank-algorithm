@@ -53,8 +53,8 @@ class PageRank {
     }
 
     rounds(num){
-        let i = 0
         return new Promise((res, rej)=>{
+            let i = 0
             while(i <= num - 1){
                 this.round()
                 i += 1
